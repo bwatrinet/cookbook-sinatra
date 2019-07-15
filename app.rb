@@ -8,5 +8,5 @@ configure :development do
 end
 
 get '/' do
-  'It works!'
+  'Change!'
 end
