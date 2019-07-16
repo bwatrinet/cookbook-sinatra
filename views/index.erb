@@ -1,0 +1,8 @@
+<ul>
+<% @recipes.each do |recipe| %>
+  <li><%= recipe.name %> : <%= recipe.description %></li>
+<% end %>
+</ul>
+
+<a>/new</a>
+<% gets.chomp %>
